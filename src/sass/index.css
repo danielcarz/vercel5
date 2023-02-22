@@ -321,7 +321,6 @@ body {
   .servicies_container .emoticons_servicies {
     width: 60px;
     height: 60px;
-    border: 1px solid black;
     margin: 0;
     padding: 10px;
   }
@@ -382,32 +381,31 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
-    width: 60%;
+    width: 40%;
   }
   .servicies_container .container_images_servicies .emoticons_servicies {
     width: 60px;
     height: 60px;
-    border: 1px solid black;
     margin: 0;
     padding: 10px;
   }
   .servicies_container .container_images_servicies .emoticons_servicies img {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
   .servicies_container .container_images_servicies .subtittle {
     text-align: center;
     font-size: Arial;
     position: absolute;
-    left: 750px;
+    left: 780px;
     top: 50px;
     color: #49166B;
   }
   .servicies_container .container_images_servicies .image_servicios_wrapper {
     width: 700px;
     height: 500px;
-    border: 1px solid black;
     margin: 0 auto;
+    padding: 10px;
   }
   .servicies_container .container_images_servicies .image_servicios_wrapper img {
     width: 100%;
@@ -424,6 +422,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 60%;
     position: relative;
   }
   .servicies_container .container_info_cards .text_servicie_wrapper {
@@ -440,7 +439,7 @@ body {
     margin-bottom: 20px;
     position: absolute;
     bottom: 20px;
-    right: 125px;
+    left: 25px;
   }
   .servicies_container .container_info_cards .button_servicies_wrapper .button_servicies {
     width: 150px;
