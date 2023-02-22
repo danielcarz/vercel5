@@ -232,9 +232,9 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -ms-flex-item-align: center;
-        align-self: center;
-    padding: 40px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    padding: 90px;
     width: 40%;
   }
   .about_me_container .about_me_info_wrapper .about_me_icons {
