@@ -79,7 +79,7 @@
                 top: 50px;
 
                 
-                font-size:  $size_subtittle_desktop;
+                font-size: $size_text_desktop;
                 color: $color_text;
                 
             }
@@ -134,8 +134,9 @@
             }
 
             .about_me_tittle p{
-                font-size:  $size_subtittle_desktop;
+                font-size:  $size_text_desktop;
                 color: $color_text;
+                right: 340px;
             }
 
 

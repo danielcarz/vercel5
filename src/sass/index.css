@@ -239,7 +239,7 @@ body {
     position: absolute;
     right: 540px;
     top: 50px;
-    font-size: 30px;
+    font-size: 20px;
     color: #49166B;
   }
   .about_me_container .about_me_info_wrapper {
@@ -288,8 +288,9 @@ body {
     height: 470px;
   }
   .about_me_container .about_me_image_wrapper .about_me_tittle p {
-    font-size: 30px;
+    font-size: 20px;
     color: #49166B;
+    right: 340px;
   }
   .about_me_container .about_me_info_wrapper {
     color: #49166B;
