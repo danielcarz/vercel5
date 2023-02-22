@@ -299,7 +299,7 @@ body {
     height: 470px;
   }
   .about_me_container .about_me_image_wrapper .about_me_tittle p {
-    font-size: 18px;
+    font-size: 25px;
     color: #49166B;
     right: 340px;
   }
@@ -382,6 +382,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
+    width: 60%;
   }
   .servicies_container .container_images_servicies .emoticons_servicies {
     width: 60px;
@@ -398,11 +399,12 @@ body {
     text-align: center;
     font-size: Arial;
     position: absolute;
-    left: 440px;
+    left: 750px;
     top: 50px;
+    color: #49166B;
   }
   .servicies_container .container_images_servicies .image_servicios_wrapper {
-    width: 400px;
+    width: 700px;
     height: 500px;
     border: 1px solid black;
     margin: 0 auto;
@@ -424,8 +426,14 @@ body {
             justify-content: center;
     position: relative;
   }
+  .servicies_container .container_info_cards .text_servicie_wrapper {
+    color: #49166B;
+    font-size: 25px;
+  }
   .servicies_container .container_info_cards .text_servicie_wrapper .prices_servicies {
     position: absolute;
+    font-size: 30px;
+    font-weight: bold;
   }
   .servicies_container .container_info_cards .button_servicies_wrapper {
     text-align: center;

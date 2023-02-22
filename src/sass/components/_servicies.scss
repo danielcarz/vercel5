@@ -63,6 +63,8 @@
             flex-direction: column;
 
             position: relative;
+ 
+            width: 60%;
 
             .emoticons_servicies{
                 @include emoticon_wrapper(60px, 60px);
@@ -77,12 +79,13 @@
             .subtittle{
                 @include subtittle;
                 position: absolute;
-                left: 440px;
+                left: 750px;     
                 top: 50px;
+                color:  $color_text;
             }
 
             .image_servicios_wrapper{
-                @include card_image(400px, 500px);
+                @include card_image(700px, 500px);  
                 border: 1px solid black;
                 margin: 0 auto;
     
@@ -100,8 +103,13 @@
             position: relative;
 
             .text_servicie_wrapper{
+                color:   $color_text;
+                font-size:  $size_text_desktop;
+
                 .prices_servicies{
                     position: absolute;
+                    font-size:$size_subtittle_desktop;
+                    font-weight: bold;
                 }
             }
 
