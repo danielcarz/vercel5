@@ -75,8 +75,13 @@
 
             .about_me_tittle{
                 position: absolute;
-                right: 240px;
+                right: 540px;
                 top: 50px;
+
+                
+                font-size:  $size_subtittle_desktop;
+                color: $color_text;
+                
             }
 
 
@@ -128,8 +133,9 @@
                  
             }
 
-            .about_me_tittle{
-                
+            .about_me_tittle p{
+                font-size:  $size_subtittle_desktop;
+                color: $color_text;
             }
 
 
@@ -137,7 +143,8 @@
 
         .about_me_info_wrapper{
 
-
+            color: $color_text;
+            font-size: $size_subtittle_desktop;
 
            
 

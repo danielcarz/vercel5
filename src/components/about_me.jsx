@@ -15,7 +15,7 @@ const AboutMe = () => {
             
 
             <figure className="about_me_image_wrapper">
-                <h2 className="about_me_tittle">About me</h2>
+                <h2 className="about_me_tittle">ACERCA DE MI</h2>
                 <img src={about_me_mobile} alt="about me images" />
             </figure>
 

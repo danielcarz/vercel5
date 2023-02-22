@@ -60,8 +60,17 @@ body {
     height: 300px;
   }
   .introduction_container .navbar {
-    background-color: #E6F5F5;
-    height: 120px;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 1px solid black;
   }
   .introduction_container .navbar ul {
     display: -webkit-box;
@@ -73,6 +82,10 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 30px;
   }
   .introduction_container .navbar ul a {
     text-decoration: none;
@@ -128,6 +141,9 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .introduction_container .navbar ul a {
     text-decoration: none;
@@ -221,8 +237,10 @@ body {
   }
   .about_me_container .about_me_image_wrapper .about_me_tittle {
     position: absolute;
-    right: 240px;
+    right: 540px;
     top: 50px;
+    font-size: 30px;
+    color: #49166B;
   }
   .about_me_container .about_me_info_wrapper {
     display: -webkit-box;
@@ -268,6 +286,14 @@ body {
   .about_me_container .about_me_image_wrapper img {
     width: 80%;
     height: 470px;
+  }
+  .about_me_container .about_me_image_wrapper .about_me_tittle p {
+    font-size: 30px;
+    color: #49166B;
+  }
+  .about_me_container .about_me_info_wrapper {
+    color: #49166B;
+    font-size: 30px;
   }
 }
 
