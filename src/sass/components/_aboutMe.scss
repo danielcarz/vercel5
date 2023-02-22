@@ -18,7 +18,7 @@
             text-align: center; 
              
             
-            border: 1px  solid black; 
+            
             img{
                 @include card_image(100%, 200px);
                 max-width:100%;
@@ -67,7 +67,7 @@
             display: flex;
             align-self: center;
              
-            border: 1px  solid rgb(243, 7, 7); 
+            
             img{
                 @include card_image(100%, 370px);
                 

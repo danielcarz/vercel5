@@ -185,7 +185,6 @@ body {
     height: auto;
     margin: 0 auto;
     text-align: center;
-    border: 1px  solid black;
   }
   .about_me_container .about_me_image_wrapper img {
     width: 100%;
@@ -229,7 +228,6 @@ body {
     display: flex;
     -ms-flex-item-align: center;
         align-self: center;
-    border: 1px solid #f30707;
   }
   .about_me_container .about_me_image_wrapper img {
     width: 100%;
