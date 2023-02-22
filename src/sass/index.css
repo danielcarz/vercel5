@@ -453,4 +453,35 @@ body {
     background-color: #308D7C;
   }
 }
+
+@media (max-width: 809px) {
+  .ubication_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .ubication_container .ubication_info_wrapper {
+    height: 300px;
+    border: 1px solid black;
+  }
+  .ubication_container .ubication_info_wrapper ul {
+    text-align: center;
+  }
+  .ubication_container .ubication_info_wrapper ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  .ubication_container .ubication_image_wrapper {
+    margin: 0 auto;
+  }
+  .ubication_container .ubication_image_wrapper img {
+    width: 450px;
+    height: 300px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

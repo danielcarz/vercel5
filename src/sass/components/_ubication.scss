@@ -1,0 +1,28 @@
+@include phone{
+    .ubication_container{
+
+        display: flex;
+        flex-direction: column;
+
+        height: auto;
+
+        .ubication_info_wrapper{
+            height: 300px;
+            border: 1px solid black;
+
+            ul{
+                text-align: center;
+                li{
+                    text-decoration: none;
+                    list-style: none;
+                } 
+            }
+        }
+        .ubication_image_wrapper{
+            margin: 0 auto;
+            img{
+                @include card_image(450px, 300px)
+            }
+        }
+    }
+}
