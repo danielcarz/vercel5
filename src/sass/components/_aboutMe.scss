@@ -10,6 +10,7 @@
         
         .about_me_image_wrapper{
             width: 95%;  
+            height: auto;
             margin: 0 auto;
 
             
@@ -20,7 +21,9 @@
             border: 1px  solid black; 
             img{
                 @include card_image(100%, 200px);
-                max-width: 400px;
+                max-width:100%;
+                max-height:200px;
+
                 margin: 0 auto;
                 
             }
@@ -50,7 +53,7 @@
 @include tablet{
     .about_me_container{
         display: flex;
-        height: 60vh;
+        height: auto;
         padding: 10px; 
         
         position: relative;
