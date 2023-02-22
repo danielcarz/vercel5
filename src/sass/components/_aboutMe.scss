@@ -58,6 +58,8 @@
         
         position: relative;
 
+        
+
         .about_me_image_wrapper{
             width: 60%;  
             margin: 0 auto;
@@ -107,11 +109,12 @@
     }
 }
 
+
 @include desktop{
     .about_me_container{
         
-        margin-top: 55px; 
-
+        
+        
         .about_me_image_wrapper{
             width: 60%;  
             margin: 0 auto;
@@ -121,8 +124,8 @@
              
             border: 1px  solid rgb(243, 7, 7); 
             img{
-                @include card_image(100%, 570px);
-                
+                @include card_image(80%, 470px); 
+                 
             }
 
             .about_me_tittle{

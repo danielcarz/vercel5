@@ -255,9 +255,6 @@ body {
 }
 
 @media (min-width: 952px) {
-  .about_me_container {
-    margin-top: 55px;
-  }
   .about_me_container .about_me_image_wrapper {
     width: 60%;
     margin: 0 auto;
@@ -269,8 +266,8 @@ body {
     border: 1px solid #f30707;
   }
   .about_me_container .about_me_image_wrapper img {
-    width: 100%;
-    height: 570px;
+    width: 80%;
+    height: 470px;
   }
 }
 
