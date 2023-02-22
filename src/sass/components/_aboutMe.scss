@@ -96,12 +96,16 @@
             flex-direction: column;
             align-self: flex-end;
 
-            font-size: $size_text_desktop;
+            
+            
 
             padding: 90px;
             width: 40%;
 
-           
+            p{
+                color: $color_text;
+                font-size: $size_subtittle_desktop;
+            };
 
             .about_me_icons{
                 display: flex;
