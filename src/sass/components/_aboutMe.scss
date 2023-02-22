@@ -13,6 +13,9 @@
             height: auto;
             margin: 0 auto;
 
+            display: flex;
+            flex-direction: column;
+
             
 
             text-align: center; 
@@ -69,7 +72,7 @@
              
             
             img{
-                @include card_image(100%, 370px);
+                @include card_image(100%, 570px); 
                 
             }
 
