@@ -118,7 +118,7 @@ body {
   }
 }
 
-@media (min-width: 952px) {
+@media (max-width: 952px) {
   .introduction_container .logo_wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -272,7 +272,7 @@ body {
   }
 }
 
-@media (min-width: 952px) {
+@media (max-width: 952px) {
   .about_me_container .about_me_image_wrapper {
     width: 60%;
     margin: 0 auto;

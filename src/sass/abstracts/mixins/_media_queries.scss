@@ -15,7 +15,7 @@
 };
 
 @mixin desktop { 
-    @media (min-width: 952px) { 
+    @media (max-width: 952px) { 
         @content
      }
 };
