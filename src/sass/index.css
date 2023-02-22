@@ -235,9 +235,9 @@ body {
   }
   .about_me_container .about_me_image_wrapper .about_me_tittle {
     position: absolute;
-    right: 540px;
+    right: 160px;
     top: 50px;
-    font-size: 20px;
+    font-size: 30px;
     color: #49166B;
   }
   .about_me_container .about_me_info_wrapper {
@@ -250,6 +250,7 @@ body {
             flex-direction: column;
     -ms-flex-item-align: end;
         align-self: flex-end;
+    font-size: 20px;
     padding: 90px;
     width: 40%;
   }

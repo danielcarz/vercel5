@@ -75,12 +75,12 @@
 
             .about_me_tittle{
                 position: absolute;
-                right: 540px;
+                right: 160px;  
                 top: 50px;
 
                 
-                font-size: $size_text_desktop;
-                color: $color_text;
+                font-size: $size_subtittle_desktop;  
+                color: $color_text; 
                 
             }
 
@@ -92,6 +92,8 @@
             display: flex;
             flex-direction: column;
             align-self: flex-end;
+
+            font-size: $size_text_desktop;
 
             padding: 90px;
             width: 40%;
