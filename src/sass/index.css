@@ -250,7 +250,7 @@ body {
             flex-direction: column;
     -ms-flex-item-align: end;
         align-self: flex-end;
-    font-size: 20px;
+    font-size: 18px;
     padding: 90px;
     width: 40%;
   }
@@ -286,7 +286,7 @@ body {
     height: 470px;
   }
   .about_me_container .about_me_image_wrapper .about_me_tittle p {
-    font-size: 20px;
+    font-size: 18px;
     color: #49166B;
     right: 340px;
   }
