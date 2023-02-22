@@ -1,0 +1,42 @@
+@mixin emoticon($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin emoticon_wrapper($width, $height) {
+    width: $width ;
+    height: $height;
+
+    border: 1px solid black;
+}
+
+
+@mixin card_image($width, $height) {
+    width: $width ;
+    height: $height;
+}
+
+@mixin text {
+    text-align: left;
+    padding: 20px;
+}
+
+@mixin subtittle {
+    text-align:center;
+    font-size:  $font_tittle;
+}
+
+@mixin card($width:100%, $height:auto, $padding:5px) {
+
+    color: $color_text;
+    font-size: $size_text;
+    
+
+    width: $width;
+    height: $height;
+    padding: $padding;
+
+    background-color: $color_backgrounds_cards;
+
+    
+}

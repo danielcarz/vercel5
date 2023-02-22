@@ -1,0 +1,127 @@
+@include phone{   
+    .servicies_container{
+
+        @include card;
+
+        .emoticons_servicies{
+            @include emoticon_wrapper(60px, 60px);
+            margin: 0;
+            padding: 10px;
+
+            img{
+                @include emoticon(60px, 60px);
+            }
+        }
+
+        .subtittle{
+            @include subtittle; 
+        }
+
+        .image_servicios_wrapper{
+            @include card_image(300px, 200px);
+            border: 1px solid black;
+            margin: 0 auto;
+
+            img{
+                @include emoticon(300px, 200px);
+            }
+        }
+
+        
+
+        .text_servicie_wrapper p{
+            @include text
+        }
+
+        .button_servicies_wrapper{
+            
+            text-align: center;
+            
+            margin-bottom: 20px;
+            .button_servicies{
+                
+                @include boton(120px, 50px, 10px);
+                
+            }
+        }
+        
+    }
+    
+}
+
+@include tablet{
+    .servicies_container{
+        background-color:$color_backgrounds_cards;
+        display: flex;
+
+        height: auto;
+        width: 100%;
+    
+
+        .container_images_servicies{
+            display: flex;
+            flex-direction: column;
+
+            position: relative;
+
+            .emoticons_servicies{
+                @include emoticon_wrapper(60px, 60px);
+                margin: 0;
+                padding: 10px;
+
+                img{
+                    @include emoticon(60px, 60px);
+                }
+            }
+
+            .subtittle{
+                @include subtittle;
+                position: absolute;
+                left: 440px;
+                top: 50px;
+            }
+
+            .image_servicios_wrapper{
+                @include card_image(400px, 500px);
+                border: 1px solid black;
+                margin: 0 auto;
+    
+                img{
+                    @include emoticon(100%, auto)
+                }
+            }
+        }
+        .container_info_cards{
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+
+            position: relative;
+
+            .text_servicie_wrapper{
+                .prices_servicies{
+                    position: absolute;
+                }
+            }
+
+            .button_servicies_wrapper{
+            
+                text-align: center;
+                
+                margin-bottom: 20px;
+
+                position: absolute;
+                bottom: 20px;
+                right: 125px;   
+                .button_servicies{
+                    
+                    @include boton(150px, 60px,  10px);
+                    
+                }
+            }
+        }
+        
+    }
+  
+}

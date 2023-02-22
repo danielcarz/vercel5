@@ -1,0 +1,151 @@
+@include phone{
+    .about_me_container{
+        @include card;
+        background-color: whitesmoke;  
+
+        display: flex;
+        flex-direction: column;
+
+        
+        
+        .about_me_image_wrapper{
+            width: 95%;  
+            margin: 0 auto;
+
+            
+
+            text-align: center; 
+             
+            
+            border: 1px  solid black; 
+            img{
+                @include card_image(100%, 200px);
+                max-width: 400px;
+                margin: 0 auto;
+                
+            }
+
+
+        }
+        .about_me_info_wrapper{
+
+            padding: 20px;
+
+            .about_me_icons{
+                display: flex;
+                justify-content: center;
+
+                img{
+                    @include emoticon(60px, 60px);
+                    
+                    margin-right: 30px;
+                }
+                 
+            }
+        
+        }
+    }
+}
+
+@include tablet{
+    .about_me_container{
+        display: flex;
+        height: 60vh;
+        padding: 10px; 
+        
+        position: relative;
+
+        .about_me_image_wrapper{
+            width: 60%;  
+            margin: 0 auto;
+
+            display: flex;
+            align-self: center;
+             
+            border: 1px  solid rgb(243, 7, 7); 
+            img{
+                @include card_image(100%, 370px);
+                
+            }
+
+            .about_me_tittle{
+                position: absolute;
+                right: 240px;
+                top: 50px;
+            }
+
+
+        }
+
+        .about_me_info_wrapper{
+
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+
+            padding: 40px;
+            width: 40%;
+
+           
+
+            .about_me_icons{
+                display: flex;
+                justify-content: center;
+                align-self: center;
+
+                img{
+                    @include emoticon(60px, 60px);
+                    
+                    margin-right: 30px; 
+                }
+                 
+            }
+        }
+    }
+}
+
+@include desktop{
+    .about_me_container{
+        
+        margin-top: 55px; 
+
+        .about_me_image_wrapper{
+            width: 60%;  
+            margin: 0 auto;
+
+            display: flex;
+            align-self: center;
+             
+            border: 1px  solid rgb(243, 7, 7); 
+            img{
+                @include card_image(100%, 570px);
+                
+            }
+
+            .about_me_tittle{
+                
+            }
+
+
+        }
+
+        .about_me_info_wrapper{
+
+
+
+           
+
+            .about_me_icons{
+                
+
+                img{
+                   
+                }
+                 
+            }
+        }
+    }
+
+
+
+}
