@@ -586,7 +586,7 @@ body {
     font-size: 25px;
   }
   .servicies_container .container_info_cards .text_servicie_wrapper {
-    margin-top: 100px;
+    margin-top: 200px;
   }
   .servicies_container .container_info_cards .text_servicie_wrapper .prices_servicies {
     font-weight: bold;
@@ -606,7 +606,7 @@ body {
     font-size: 18px;
     background-color: #308D7C;
     font-size: 30px;
-    margin-top: 170px;
+    margin-top: 110px;
   }
 }
 
