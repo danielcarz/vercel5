@@ -291,14 +291,50 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
+  }
+  .about_me_container .about_me_image_wrapper {
+    width: 50%;
+    border: 1px solid;
   }
   .about_me_container .about_me_image_wrapper img {
     width: 80%;
     height: 470px;
   }
+  .about_me_container .about_me_image_wrapper .about_me_tittle {
+    position: absolute;
+    right: 650px;
+    color: #49166B;
+  }
   .about_me_container .about_me_info_wrapper {
     color: #49166B;
     font-size: 30px;
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .about_me_container .about_me_info_wrapper .about_me_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .about_me_container .about_me_info_wrapper .about_me_icons img {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
   }
 }
 
