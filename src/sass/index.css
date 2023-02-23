@@ -306,7 +306,7 @@ body {
   }
   .about_me_container .about_me_image_wrapper .about_me_tittle {
     position: absolute;
-    right: 325px;
+    left: 55%;
     color: #49166B;
     font-size: 30px;
   }
@@ -562,7 +562,7 @@ body {
   }
   .servicies_container .container_images_servicies h2 {
     position: absolute;
-    left: 58%;
+    left: 66%;
     top: 10px;
     color: #49166B;
     font-size: 30px;
@@ -586,7 +586,7 @@ body {
     font-size: 25px;
   }
   .servicies_container .container_info_cards .text_servicie_wrapper {
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .servicies_container .container_info_cards .text_servicie_wrapper .prices_servicies {
     font-weight: bold;
