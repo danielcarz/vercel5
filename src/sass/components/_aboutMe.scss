@@ -64,22 +64,26 @@
         
 
         .about_me_image_wrapper{
-            width: 60%;  
+            width: 70%;  
             margin: 0 auto;
 
             display: flex;
             align-self: center;
+
+            border: 1px solid  black;
              
             
             img{
-                @include card_image(100%, 570px); 
+                @include card_image(100%, 570px);    
                 
             }
 
             .about_me_tittle{
                 position: absolute;
-                right: 160px;  
+                right: 95px;   
                 top: 50px;
+
+                
 
                 
                 font-size: $size_subtittle_desktop;  
@@ -96,15 +100,15 @@
             flex-direction: column;
             align-self: flex-end;
 
-            
+            margin-top: 60px;
             
 
             padding: 90px;
-            width: 40%;
+            width: 30%; 
 
             p{
                 color: $color_text;
-                font-size: $size_subtittle_desktop;
+                font-size: $size_text_tablets;
             };
 
             .about_me_icons{

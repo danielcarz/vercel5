@@ -231,13 +231,14 @@ body {
     position: relative;
   }
   .about_me_container .about_me_image_wrapper {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-item-align: center;
         align-self: center;
+    border: 1px solid  black;
   }
   .about_me_container .about_me_image_wrapper img {
     width: 100%;
@@ -245,7 +246,7 @@ body {
   }
   .about_me_container .about_me_image_wrapper .about_me_tittle {
     position: absolute;
-    right: 160px;
+    right: 95px;
     top: 50px;
     font-size: 30px;
     color: #49166B;
@@ -260,12 +261,13 @@ body {
             flex-direction: column;
     -ms-flex-item-align: end;
         align-self: flex-end;
+    margin-top: 60px;
     padding: 90px;
-    width: 40%;
+    width: 30%;
   }
   .about_me_container .about_me_info_wrapper p {
     color: #49166B;
-    font-size: 30px;
+    font-size: 19px;
   }
   .about_me_container .about_me_info_wrapper .about_me_icons {
     display: -webkit-box;
