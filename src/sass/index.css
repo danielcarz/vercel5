@@ -162,7 +162,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
     color: white;
+  }
+  .introduction_container .lema_ashira_wrapper p {
     text-align: center;
+    margin: 0 auto;
   }
 }
 

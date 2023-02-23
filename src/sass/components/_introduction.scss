@@ -156,7 +156,12 @@
             
 
             color: $color_letter_button;
-            text-align: center;
+            
+
+            p{
+                text-align: center;
+                margin: 0 auto;
+            }
              
         }
     } 
