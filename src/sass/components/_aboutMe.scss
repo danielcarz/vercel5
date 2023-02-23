@@ -131,14 +131,10 @@
 @include desktop{
     .about_me_container{
         
-        
+        display: flex; 
         
         .about_me_image_wrapper{
-            width: 60%;  
-            margin: 0 auto;
-
-            display: flex;
-            align-self: center;
+            
              
             
             img{
@@ -147,9 +143,7 @@
             }
 
             .about_me_tittle p{
-                font-size:  $size_text_desktop;
-                color: $color_text;
-                right: 340px;
+                
             }
 
 

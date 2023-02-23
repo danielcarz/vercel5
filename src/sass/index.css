@@ -121,7 +121,7 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .introduction_container .logo_wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -286,24 +286,15 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
-  .about_me_container .about_me_image_wrapper {
-    width: 60%;
-    margin: 0 auto;
+@media (min-width: 1024px) {
+  .about_me_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-item-align: center;
-        align-self: center;
   }
   .about_me_container .about_me_image_wrapper img {
     width: 80%;
     height: 470px;
-  }
-  .about_me_container .about_me_image_wrapper .about_me_tittle p {
-    font-size: 25px;
-    color: #49166B;
-    right: 340px;
   }
   .about_me_container .about_me_info_wrapper {
     color: #49166B;
