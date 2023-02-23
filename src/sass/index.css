@@ -538,6 +538,18 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .servicies_container {
+    height: 80vh;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #E6F5F5;
+  }
+  .servicies_container .container_images_servicies {
+    width: 70%;
+    border: 1px solid black;
+  }
   .servicies_container .container_images_servicies .emoticons_servicies {
     width: 80px;
     height: 80px;
@@ -548,9 +560,49 @@ body {
     width: 80px;
     height: 80px;
   }
+  .servicies_container .container_images_servicies h2 {
+    position: absolute;
+    left: 50%;
+    color: #49166B;
+    font-size: 30px;
+  }
   .servicies_container .container_images_servicies .image_servicios_wrapper img {
-    width: 80px;
+    width: 680px;
+    height: 550px;
+  }
+  .servicies_container .container_info_cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #49166B;
+    font-size: 25px;
+  }
+  .servicies_container .container_info_cards .text_servicie_wrapper .prices_servicies {
+    font-weight: bold;
+  }
+  .servicies_container .container_info_cards .button_servicies_wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .servicies_container .container_info_cards .button_servicies_wrapper .button_servicies {
+    width: 320px;
     height: 80px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #308D7C;
+    font-size: 30px;
+    margin-top: 200px;
   }
 }
 

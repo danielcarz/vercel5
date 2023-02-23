@@ -189,7 +189,19 @@
 
 @include desktop{
     .servicies_container{
+
+        height: 80vh;
+        
+        position: relative;
+
+        display: flex;
+        background-color:  $color_backgrounds_cards;
+
         .container_images_servicies{
+
+            width: 70%;
+            border: 1px solid black;
+
             .emoticons_servicies{
                 @include emoticon_wrapper(80px, 80px);
                 margin: 0;
@@ -200,25 +212,46 @@
                 }
             }
             h2{
-
+                position: absolute;
+                left: 50%;
+                color: $color_text;
+                font-size:  $size_subtittle_desktop;      
             }
             .image_servicios_wrapper{
                 img{
-                    @include emoticon(80px, 80px);
+                    @include emoticon(680px, 550px); 
                 }
             }
         }
 
         .container_info_cards{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            color: $color_text;
+            font-size: $size_text_desktop;
+
             .text_servicie_wrapper{
 
                 .prices_servicies{
-
+                    font-weight: bold;
                 }
-                .button_servicies_wrapper{
-                    .button_servicies{
-
-                    }
+            }
+             
+            .button_servicies_wrapper{
+            
+                text-align: center;
+                
+                
+                margin-bottom: 20px;
+                .button_servicies{
+                     
+                    @include boton(320px, 80px, 10px);
+                    font-size:   $size_subtittle_desktop;
+                    margin-top: 200px; 
+                    
                 }
             }
         }
