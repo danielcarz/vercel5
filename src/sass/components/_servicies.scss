@@ -213,7 +213,7 @@
             }
             h2{
                 position: absolute;
-                left: 50%;
+                left: 58%;
                 top: 10px;
                 color: $color_text;
                 font-size:  $size_subtittle_desktop;      
@@ -251,6 +251,7 @@
                      
                     @include boton(320px, 80px, 10px);
                     font-size:   $size_subtittle_desktop;
+                    margin-bottom: 170px;
                      
                     
                 }

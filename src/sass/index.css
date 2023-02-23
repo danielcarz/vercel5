@@ -562,7 +562,7 @@ body {
   }
   .servicies_container .container_images_servicies h2 {
     position: absolute;
-    left: 50%;
+    left: 58%;
     top: 10px;
     color: #49166B;
     font-size: 30px;
@@ -603,6 +603,7 @@ body {
     font-size: 18px;
     background-color: #308D7C;
     font-size: 30px;
+    margin-bottom: 170px;
   }
 }
 
