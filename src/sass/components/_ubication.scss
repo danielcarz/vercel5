@@ -34,3 +34,40 @@
         }
     }
 }
+
+@include tablet {
+    .ubication_container{
+
+        @include ubication; 
+
+        height: auto;
+        
+
+        .ubication_info_wrapper{
+            height: auto; 
+            
+            
+
+            border: 1px solid black;
+
+            ul{
+                text-align: left;
+                padding: 10px; 
+                h2{
+                    font-size: $size_text;
+                }
+                 
+                li{
+                    text-decoration: none;
+                    list-style: none;
+                } 
+            }
+        }
+        .ubication_image_wrapper{
+            margin: 0 auto;
+            img{
+                @include card_image(100%, 500px);
+            }
+        }
+    }
+}
