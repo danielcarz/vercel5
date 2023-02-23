@@ -8,7 +8,9 @@ const Ubication = () => {
 
     return(
         <section className="ubication_container">
+            <h1>UBICACION</h1>
             <section className="ubication_info_wrapper">
+                
                 <ul>
                     <h2>DIRECCION</h2>
                     <li>  Transversal 32 Sur #32-65 Apto 101
@@ -42,6 +44,7 @@ const Ubication = () => {
                     <img src={map} alt="ubication" /> 
                 </a>
             </figure>
+
         </section>
     )
 }

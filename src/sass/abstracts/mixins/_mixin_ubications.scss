@@ -1,7 +1,13 @@
 @mixin ubication {
     text-align: left;
-    color: $color_letter_button;
-    background-color: #8B4589;
+    border-radius: 15px;
+    border: none;
+    
+    width: 30%;
+    height: auto;
+    color: $color_text;
+    font-size:  $size_text_desktop; 
+    background-color: #d0b4cf;
 }
 
 

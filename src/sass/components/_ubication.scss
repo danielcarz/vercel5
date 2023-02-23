@@ -71,3 +71,59 @@
         }
     }
 }
+
+@include desktop{
+    .ubication_container{
+
+        
+        display: flex; 
+
+        height: auto;
+        padding: 20px;
+        
+        background-color: $color_backgrounds_cards;
+
+        position: relative;
+        
+
+        .ubication_info_wrapper{
+           
+            @include ubication;
+            
+             
+            margin: 0 auto; 
+            padding: 10px;  
+            
+            position: relative;
+            top: 50px;
+
+             
+            
+
+            ul{
+                opacity: 0.9;
+                z-index: 1;
+                text-align: left;
+                padding: 10px; 
+                h2{
+                    font-size: $size_text;
+                }
+                 
+                li{
+                    text-decoration: none;
+                    list-style: none;
+                } 
+            }
+        }
+        .ubication_image_wrapper{
+            margin: 0 auto;
+            padding: 10px; 
+
+            border: 1px solid blue;
+            img{
+                @include card_image(100%, 500px); 
+            }
+        }
+    }
+
+}
