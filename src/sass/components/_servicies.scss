@@ -214,12 +214,13 @@
             h2{
                 position: absolute;
                 left: 50%;
+                top: 10px;
                 color: $color_text;
                 font-size:  $size_subtittle_desktop;      
             }
             .image_servicios_wrapper{
                 img{
-                    @include emoticon(680px, 550px); 
+                    @include emoticon(680px, 400px); 
                 }
             }
         }
@@ -250,7 +251,7 @@
                      
                     @include boton(320px, 80px, 10px);
                     font-size:   $size_subtittle_desktop;
-                    margin-top: 200px; 
+                     
                     
                 }
             }
