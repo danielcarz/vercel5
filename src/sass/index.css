@@ -594,6 +594,7 @@ body {
   .servicies_container .container_info_cards .button_servicies_wrapper {
     text-align: center;
     margin-bottom: 20px;
+    padding: 10px;
   }
   .servicies_container .container_info_cards .button_servicies_wrapper .button_servicies {
     width: 320px;
@@ -606,8 +607,7 @@ body {
     font-size: 18px;
     background-color: #308D7C;
     font-size: 30px;
-    margin-top: 40px;
-    padding: 10px;
+    margin-top: 30px;
   }
 }
 
