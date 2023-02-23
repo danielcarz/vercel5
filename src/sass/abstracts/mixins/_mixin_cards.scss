@@ -18,12 +18,13 @@
 
 @mixin text {
     text-align: left;
+    font-size: $size_text_tablets;
     padding: 20px;
 }
 
 @mixin subtittle {
     text-align:center;
-    font-size:  $font_tittle;
+    font-size:  $size_subtittle_tablets;
 }
 
 @mixin card($width:100%, $height:auto, $padding:5px) {

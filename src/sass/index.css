@@ -360,7 +360,7 @@ body {
   }
   .servicies_container .subtittle {
     text-align: center;
-    font-size: Arial;
+    font-size: 25px;
   }
   .servicies_container .image_servicios_wrapper {
     width: 300px;
@@ -374,6 +374,7 @@ body {
   }
   .servicies_container .text_servicie_wrapper p {
     text-align: left;
+    font-size: 19px;
     padding: 20px;
   }
   .servicies_container .button_servicies_wrapper {
@@ -486,32 +487,35 @@ body {
     background-color: #E6F5F5;
   }
   .servicies_container .emoticons_servicies {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin: 0;
     padding: 10px;
   }
   .servicies_container .emoticons_servicies img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
   .servicies_container .subtittle {
     text-align: center;
-    font-size: Arial;
+    font-size: 25px;
   }
   .servicies_container .image_servicios_wrapper {
-    width: 300px;
-    height: 200px;
-    border: 1px solid black;
+    width: 800px;
+    height: 500px;
     margin: 0 auto;
   }
   .servicies_container .image_servicios_wrapper img {
-    width: 300px;
-    height: 200px;
+    width: 800px;
+    height: 500px;
   }
   .servicies_container .text_servicie_wrapper p {
     text-align: left;
+    font-size: 19px;
     padding: 20px;
+  }
+  .servicies_container .prices_servicies {
+    font-weight: bold;
   }
   .servicies_container .button_servicies_wrapper {
     text-align: center;

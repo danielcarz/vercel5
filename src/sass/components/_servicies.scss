@@ -139,12 +139,12 @@
         @include card;
 
         .emoticons_servicies{
-            @include emoticon_wrapper(60px, 60px);
+            @include emoticon_wrapper(80px, 80px);
             margin: 0;
             padding: 10px;
 
             img{
-                @include emoticon(60px, 60px);
+                @include emoticon(80px, 80px);
             }
         }
 
@@ -153,12 +153,12 @@
         }
 
         .image_servicios_wrapper{
-            @include card_image(300px, 200px);
-            border: 1px solid black;
+            @include card_image(800px, 500px);
+            
             margin: 0 auto;
 
             img{
-                @include emoticon(300px, 200px);
+                @include emoticon(800px, 500px);
             }
         }
 
@@ -166,6 +166,10 @@
 
         .text_servicie_wrapper p{
             @include text
+        }
+
+        .prices_servicies{
+            font-weight: bold;
         }
 
         .button_servicies_wrapper{
