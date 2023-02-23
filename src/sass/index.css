@@ -305,10 +305,11 @@ body {
     position: absolute;
     right: 325px;
     color: #49166B;
+    font-size: 30px;
   }
   .about_me_container .about_me_info_wrapper {
     color: #49166B;
-    font-size: 30px;
+    font-size: 25px;
     width: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
