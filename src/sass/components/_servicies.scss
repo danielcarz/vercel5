@@ -153,12 +153,12 @@
         }
 
         .image_servicios_wrapper{
-            @include card_image(800px, 500px);
+            @include card_image(700px, 500px);
             
             margin: 0 auto;
 
             img{
-                @include emoticon(800px, 500px);
+                @include emoticon(700px, 500px);
             }
         }
 
@@ -184,5 +184,43 @@
             }
         }
         
+    }
+}
+
+@include desktop{
+    .servicies_container{
+        .container_images_servicies{
+            .emoticons_servicies{
+                @include emoticon_wrapper(80px, 80px);
+                margin: 0;
+                padding: 10px;
+    
+                img{
+                    @include emoticon(80px, 80px);
+                }
+            }
+            h2{
+
+            }
+            .image_servicios_wrapper{
+                img{
+                    @include emoticon(80px, 80px);
+                }
+            }
+        }
+
+        .container_info_cards{
+            .text_servicie_wrapper{
+
+                .prices_servicies{
+
+                }
+                .button_servicies_wrapper{
+                    .button_servicies{
+
+                    }
+                }
+            }
+        }
     }
 }

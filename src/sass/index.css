@@ -504,12 +504,12 @@ body {
     font-size: 25px;
   }
   .servicies_container .image_servicios_wrapper {
-    width: 800px;
+    width: 700px;
     height: 500px;
     margin: 0 auto;
   }
   .servicies_container .image_servicios_wrapper img {
-    width: 800px;
+    width: 700px;
     height: 500px;
   }
   .servicies_container .text_servicie_wrapper p {
@@ -534,6 +534,23 @@ body {
     font-weight: bold;
     font-size: 18px;
     background-color: #308D7C;
+  }
+}
+
+@media (min-width: 1024px) {
+  .servicies_container .container_images_servicies .emoticons_servicies {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 10px;
+  }
+  .servicies_container .container_images_servicies .emoticons_servicies img {
+    width: 80px;
+    height: 80px;
+  }
+  .servicies_container .container_images_servicies .image_servicios_wrapper img {
+    width: 80px;
+    height: 80px;
   }
 }
 
