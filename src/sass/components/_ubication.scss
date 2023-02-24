@@ -41,7 +41,7 @@
         .ubication_image_wrapper{
             margin: 0 auto;  
             img{
-                @include card_image(100%, 410px);  
+                @include card_image(100%, 400px);  
             }
         }
         
