@@ -47,6 +47,9 @@ body {
 }
 
 @media (min-width: 810px) and (max-width: 1023px) {
+  .introduction_container {
+    width: 100%;
+  }
   .introduction_container .logo_wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -58,37 +61,6 @@ body {
   .introduction_container .logo_wrapper img {
     width: 300px;
     height: 300px;
-  }
-  .introduction_container .navbar {
-    height: 150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: 1px solid black;
-  }
-  .introduction_container .navbar ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 30px;
-  }
-  .introduction_container .navbar ul a {
-    text-decoration: none;
   }
   .introduction_container .lema_ashira_wrapper {
     background-color: #8B4589;
@@ -105,6 +77,43 @@ body {
   .introduction_container .lema_ashira_wrapper p {
     text-align: center;
     margin: 0 auto;
+  }
+  .introduction_container .navbar {
+    background-color: #E6F5F5;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+  }
+  .introduction_container .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 30px;
+  }
+  .introduction_container .navbar ul a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 19px;
   }
   .lema_ashira_wrapper {
     background-color: #8B4589;
@@ -134,12 +143,29 @@ body {
     width: 300px;
     height: 300px;
   }
+  .introduction_container .navbar {
+    background-color: #E6F5F5;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+  }
   .introduction_container .navbar ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     list-style: none;
-    margin: 0;
     padding: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -147,9 +173,12 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 30px;
   }
   .introduction_container .navbar ul a {
     text-decoration: none;
+    margin-left: 10px;
+    font-size: 19px;
   }
   .introduction_container .lema_ashira_wrapper {
     background-color: #8B4589;

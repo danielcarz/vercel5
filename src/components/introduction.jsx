@@ -19,9 +19,10 @@ const Introduction = () => {
 
             <nav className="navbar">
                 <ul>
-                    <li><a href="">item1</a></li>
-                    <li><a href="">item1</a></li>
-                    <li><a href="">item1</a></li>
+                    <li><a href="">ACERCA DE MI</a></li>
+                    <li><a href="">SERVICIOS</a></li>
+                    <li><a href="">UBICACION</a></li>
+                    <li><a href="">COMENTARIOS</a></li>
                 </ul>
             </nav>
 
