@@ -23,9 +23,9 @@
             
             
             img{
-                @include card_image(100%, 300px);
+                @include card_image(100%, 200px);
                 max-width:100%;
-                max-height:200px;
+                max-height:300px;
 
                 margin: 0 auto;
                 
