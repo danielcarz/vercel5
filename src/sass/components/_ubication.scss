@@ -1,24 +1,36 @@
 @include phone{
     .ubication_container{
 
-        @include ubication; 
-
         height: auto;
-        
-
+    
         .ubication_info_wrapper{
-            height: auto; 
+           
+            @include ubication;
+            font-size:  $size_text; 
             
+            width: 100%;
+            height: auto;    
+            margin: 0 auto; 
+            border-radius: 0px;
             
+            position: relative;
+            top: 25px;
 
-            border: 1px solid black;
+             
+            
 
             ul{
-                text-align: left;
-                padding: 10px; 
-                h2{
-                    font-size: $size_text;
+                .subtittle{
+                    @include subtittle;
+                    text-align: left;
+                    font-size:    $size_subtittle_mobile;
+                    padding: 10px;
+
                 }
+                text-align: left;
+                padding: 10px;
+                width: 50%; 
+                
                  
                 li{
                     text-decoration: none;
@@ -27,11 +39,12 @@
             }
         }
         .ubication_image_wrapper{
-            margin: 0 auto;
+            margin: 0 auto;  
             img{
-                @include card_image(100%, 200px)
+                @include card_image(100%, 410px);  
             }
         }
+        
     }
 }
 
