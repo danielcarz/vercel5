@@ -8,23 +8,23 @@ const Ubication = () => {
 
     return(
         <section className="ubication_container">
-            <h1>UBICACION</h1>
+            
             <section className="ubication_info_wrapper">
                 
                 <ul>
-                    <h2>DIRECCION</h2>
+                    <h2 className="subtittle">DIRECCION</h2>
                     <li>  Transversal 32 Sur #32-65 Apto 101
                           Envigado, Antioquia
                                 Colombia    
                     </li>
-                    <h2>CELULAR</h2>
+                    <h2 className="subtittle">CELULAR</h2>
                     <li> 301 6765592</li>
                 </ul>
 
                 
                 <ul>
                    
-                    <h2>HORARIO DE APERTURA</h2>
+                    <h2 className="subtittle">HORARIO DE APERTURA</h2>
                     <li>lunes:	7:00–19:00</li>
                     <li>martes:	7:00–19:00</li>
                     <li>miercoles:	7:00–19:00</li>

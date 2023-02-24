@@ -616,8 +616,9 @@ body {
     text-align: left;
     border-radius: 15px;
     border: none;
-    width: 30%;
-    height: auto;
+    width: 40%;
+    height: 400px;
+    padding: 10px;
     color: #49166B;
     font-size: 25px;
     background-color: #d0b4cf;
@@ -652,8 +653,9 @@ body {
     text-align: left;
     border-radius: 15px;
     border: none;
-    width: 30%;
-    height: auto;
+    width: 40%;
+    height: 400px;
+    padding: 10px;
     color: #49166B;
     font-size: 25px;
     background-color: #d0b4cf;
@@ -688,33 +690,40 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: auto;
     padding: 20px;
-    background-color: #E6F5F5;
+    background-color: white;
     position: relative;
   }
   .ubication_container .ubication_info_wrapper {
     text-align: left;
     border-radius: 15px;
     border: none;
-    width: 30%;
-    height: auto;
+    width: 40%;
+    height: 400px;
+    padding: 10px;
     color: #49166B;
     font-size: 25px;
     background-color: #d0b4cf;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin: 0 auto;
-    padding: 10px;
     position: relative;
-    top: 50px;
+    top: 25px;
   }
   .ubication_container .ubication_info_wrapper ul {
-    opacity: 0.9;
-    z-index: 1;
     text-align: left;
     padding: 10px;
+    width: 50%;
   }
-  .ubication_container .ubication_info_wrapper ul h2 {
-    font-size: 16px;
+  .ubication_container .ubication_info_wrapper ul .subtittle {
+    text-align: center;
+    font-size: 25px;
+    text-align: left;
   }
   .ubication_container .ubication_info_wrapper ul li {
     text-decoration: none;
@@ -723,7 +732,6 @@ body {
   .ubication_container .ubication_image_wrapper {
     margin: 0 auto;
     padding: 10px;
-    border: 1px solid blue;
   }
   .ubication_container .ubication_image_wrapper img {
     width: 100%;
