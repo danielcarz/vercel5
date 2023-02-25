@@ -15,7 +15,8 @@
         "components/_introduction.scss",
         "components/_aboutMe.scss",
         "components/_servicies.scss",
-        "components/_ubication.scss"
+        "components/_ubication.scss",
+        "components/_comments.scss"
     ],
     "names": [],
     "file": "index.css"
