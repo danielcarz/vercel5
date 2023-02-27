@@ -4,7 +4,7 @@ import { Introduction } from "./components/introduction";
 import {AboutMe} from "./components/about_me";
 import {Servicies} from "./components/servicies";
 import {Ubication} from "./components/ubications";
-import {CommentCarousel} from "./components/comments";
+import {Carousel} from "./components/comments";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <AboutMe></AboutMe>
       <Servicies></Servicies>
       <Ubication></Ubication>
-      <CommentCarousel></CommentCarousel>
+      <Carousel></Carousel>
     </div>
   )
 }
