@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 const comments = [
   { id: 1, text: 'Este es el primer comentario', title: 'titulo 1', author: 'autor 1', date: 'fecha 1'},
-  { id: 2, text: 'Este es el segundo comentario' },
+  { id: 2, text: 'Este es el primer comentario', title: 'titulo 2', author: 'autor 2', date: 'fecha 2'}
 ]; 
 
 const CommentCarousel = () => {
