@@ -807,10 +807,14 @@ body {
     overflow-x: scroll;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
+    background-color: #d0b4cf75;
   }
   .comment-carousel .arrow {
     cursor: pointer;
     padding: 10px;
+    background-color: #d0b4cf75;
+    border-radius: 10px;
+    margin: 5px;
   }
   .comment-carousel .comments-wrapper {
     background-color: #E6F5F5;

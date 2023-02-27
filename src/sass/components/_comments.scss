@@ -11,11 +11,17 @@
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
 
+        background-color: #d0b4cf75;
+
       
 
         .arrow{
             cursor: pointer;
             padding: 10px;
+
+            background-color: #d0b4cf75;
+            border-radius: 10px;
+            margin: 5px;
         }
 
         .comments-wrapper{
