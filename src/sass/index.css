@@ -842,6 +842,9 @@ body {
     margin: 0 auto;
     width: 100%;
     height: 30vh;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
   }
   .comment-carousel .arrow {
     cursor: pointer;
@@ -861,9 +864,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    overflow-x: scroll;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
   }
   .comment-carousel .comments-wrapper .text-wrapper {
     margin: 10px;
