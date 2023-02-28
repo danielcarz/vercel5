@@ -875,10 +875,14 @@ body .App {
   .comment-carousel .comment-block .prev {
     position: relative;
     left: 10px;
+    width: 30px;
+    height: 30px;
   }
   .comment-carousel .comment-block .next {
     position: relative;
     right: 10px;
+    width: 30px;
+    height: 30px;
   }
 }
 
