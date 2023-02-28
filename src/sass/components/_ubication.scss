@@ -15,11 +15,6 @@
             height: auto;    
             margin: 0 auto; 
             border-radius: 0px;
-            
-           
-
-             
-            
 
             ul{
                 .subtittle{
@@ -44,7 +39,8 @@
             margin: 0 auto;
             width: 100%; 
 
-            
+            border: 1px solid black;
+             
               
             img{
                 @include card_image(100%, 400px);
