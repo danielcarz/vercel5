@@ -103,51 +103,110 @@
     }
 }
 
-@include tablet{
-
+@include tablet {
     .comment-carousel{
 
         display: flex;
-        align-items: center;
+        flex-direction: column;
 
-        margin: 0 auto;
+        /* position: absolute; */
+
+        
         width: 100%;
-        height: 30vh;
+        height: 450px;  
+        
         
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
 
-      
+        background-color: #d0b4cf75;
+        border: 1px  solid black;    
 
-        .arrow{
-            cursor: pointer;
-            padding: 10px;
+        .tittle-wrapper{
+            text-align: center;
+            color:$color_text;
         }
 
-        .comments-wrapper{
-            background-color: $color_backgrounds_cards;;
-            border-radius: 10px;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+        .comment-block{
 
-            margin: 0 auto;
-            width: 100%;
-            padding: 20px; 
+        
 
-            display: flex;
-            align-items: center;
-
-            
-
-            .text-wrapper{
-                margin: 10px;
+               display: flex;
+                align-items: center;
 
                 margin: 0 auto;
                 width: 100%;
+                height: auto; 
+                padding: 0.5rem;
                 
-                flex-shrink: 0;
-                scroll-snap-align: center;
-            }
-        }
-    }
+                overflow-x: scroll;
+                scroll-snap-type: x mandatory;
 
+                
+
+            
+
+                .arrow{
+                    cursor: pointer;
+                    padding: 10px;
+
+                   
+
+                    background-color: $background;
+                    border-radius: 10px;
+                    margin-left: 5px;
+                    margin-right: 5px; 
+                }
+
+                .comments-wrapper{
+                    background-color: $color_backgrounds_cards;;
+                    border-radius: 20px;
+                    border: none;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+                    margin: 0 auto;
+                    width: 100%;
+                    height: 350px;
+                    padding:  20px; 
+
+                    display: flex;
+                    align-items: center;
+
+                    .text-wrapper{
+
+                        margin: 0 auto;
+                        width: 100%;
+
+                        color:$color_text;
+                        
+                        flex-shrink: 0;
+                        scroll-snap-align: center;
+
+                        h4{
+                            color:  $color_backgrounds_buttons;
+                        }
+                    }
+                }
+                .prev{
+                    position: relative;
+                    left: 10px;
+                    
+                    width: 30px;
+                    height: 30px;
+                
+                }
+                .next{
+                    position: relative;
+                    right: 10px;
+                    
+                    
+                    width: 30px;
+                    height: 30px;
+
+                }
+            }
+    }
 }
+
+
+

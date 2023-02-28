@@ -891,27 +891,55 @@ body .App {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* position: absolute; */
+    width: 100%;
+    height: 450px;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    background-color: #d0b4cf75;
+    border: 1px  solid black;
+  }
+  .comment-carousel .tittle-wrapper {
+    text-align: center;
+    color: #49166B;
+  }
+  .comment-carousel .comment-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto;
     width: 100%;
-    height: 30vh;
+    height: auto;
+    padding: 0.5rem;
     overflow-x: scroll;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
   }
-  .comment-carousel .arrow {
+  .comment-carousel .comment-block .arrow {
     cursor: pointer;
     padding: 10px;
-  }
-  .comment-carousel .comments-wrapper {
-    background-color: #E6F5F5;
+    background-color: #d0b4cf75;
     border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .comment-carousel .comment-block .comments-wrapper {
+    background-color: #E6F5F5;
+    border-radius: 20px;
+    border: none;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     width: 100%;
+    height: 350px;
     padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -920,13 +948,28 @@ body .App {
         -ms-flex-align: center;
             align-items: center;
   }
-  .comment-carousel .comments-wrapper .text-wrapper {
-    margin: 10px;
+  .comment-carousel .comment-block .comments-wrapper .text-wrapper {
     margin: 0 auto;
     width: 100%;
+    color: #49166B;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     scroll-snap-align: center;
+  }
+  .comment-carousel .comment-block .comments-wrapper .text-wrapper h4 {
+    color: #308D7C;
+  }
+  .comment-carousel .comment-block .prev {
+    position: relative;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .comment-carousel .comment-block .next {
+    position: relative;
+    right: 10px;
+    width: 30px;
+    height: 30px;
   }
 }
 /*# sourceMappingURL=index.css.map */
