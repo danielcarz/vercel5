@@ -817,6 +817,7 @@ body .App {
   }
   .comment-carousel .tittle-wrapper {
     text-align: center;
+    color: #49166B;
   }
   .comment-carousel .comment-block {
     display: -webkit-box;
@@ -859,12 +860,15 @@ body .App {
             align-items: center;
   }
   .comment-carousel .comment-block .comments-wrapper .text-wrapper {
-    margin: 10px;
     margin: 0 auto;
     width: 100%;
+    color: #49166B;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     scroll-snap-align: center;
+  }
+  .comment-carousel .comment-block .comments-wrapper .text-wrapper h4 {
+    color: #308D7C;
   }
   .comment-carousel .comment-block .prev {
     position: relative;

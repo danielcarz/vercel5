@@ -18,6 +18,7 @@
 
         .tittle-wrapper{
             text-align: center;
+            color:$color_text;
         }
 
         .comment-block{
@@ -64,13 +65,18 @@
                     align-items: center;
 
                     .text-wrapper{
-                        margin: 10px;
 
                         margin: 0 auto;
                         width: 100%;
+
+                        color:$color_text;
                         
                         flex-shrink: 0;
                         scroll-snap-align: center;
+
+                        h4{
+                            color:  $color_backgrounds_buttons;
+                        }
                     }
                 }
                 .prev{
