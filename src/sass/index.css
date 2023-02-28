@@ -11,6 +11,10 @@ body {
           box-sizing: border-box;
 }
 
+body .App {
+  width: 100%;
+}
+
 @media (max-width: 809px) {
   .introduction_container {
     width: 100%;
@@ -645,6 +649,7 @@ body {
 @media (max-width: 809px) {
   .ubication_container {
     height: auto;
+    width: 100%;
   }
   .ubication_container .ubication_info_wrapper {
     text-align: left;
@@ -664,8 +669,6 @@ body {
     height: auto;
     margin: 0 auto;
     border-radius: 0px;
-    position: relative;
-    top: 25px;
   }
   .ubication_container .ubication_info_wrapper ul {
     text-align: left;
