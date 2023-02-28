@@ -718,9 +718,8 @@ body .App {
     background-color: #d0b4cf75;
     width: 100%;
     height: auto;
+    border: 1px solid black;
     margin: 0 auto;
-    position: relative;
-    top: 25px;
   }
   .ubication_container .ubication_info_wrapper ul {
     text-align: left;
