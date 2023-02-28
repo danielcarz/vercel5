@@ -3,6 +3,7 @@
 
         height: auto;
         width: 100%;
+        
     
         .ubication_info_wrapper{
            
@@ -39,7 +40,9 @@
             }
         }
         .ubication_image_wrapper{
-            margin: 0 auto;  
+            margin: 0 auto;
+            width: 100%;
+              
             img{
                 @include card_image(100%, 400px);  
             }
