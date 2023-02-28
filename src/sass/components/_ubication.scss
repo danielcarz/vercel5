@@ -42,14 +42,14 @@
         }
         .ubication_image_wrapper{
             margin: 0 auto;
-            width: 90%;
+            width: 100%; 
 
             
               
             img{
                 @include card_image(100%, 400px);
                 margin: 0; 
-                padding: 20px;  
+                  
             }
         }
         
