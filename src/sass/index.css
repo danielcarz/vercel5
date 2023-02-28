@@ -663,7 +663,7 @@ body .App {
     display: flex;
     color: #49166B;
     font-size: 25px;
-    background-color: #d0b4cf;
+    background-color: #E6F5F5;
     font-size: 16px;
     width: 100%;
     height: auto;
@@ -713,7 +713,7 @@ body .App {
     display: flex;
     color: #49166B;
     font-size: 25px;
-    background-color: #d0b4cf;
+    background-color: #E6F5F5;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -768,7 +768,7 @@ body .App {
     display: flex;
     color: #49166B;
     font-size: 25px;
-    background-color: #d0b4cf;
+    background-color: #E6F5F5;
     margin: 0 auto;
     position: relative;
     top: 25px;
