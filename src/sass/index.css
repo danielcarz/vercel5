@@ -825,7 +825,7 @@ body .App {
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 0.5rem;
     overflow-x: scroll;
@@ -837,7 +837,8 @@ body .App {
     padding: 10px;
     background-color: #d0b4cf75;
     border-radius: 10px;
-    margin: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .comment-carousel .comment-block .comments-wrapper {
     background-color: #E6F5F5;
