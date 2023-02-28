@@ -874,11 +874,11 @@ body .App {
   }
   .comment-carousel .comment-block .prev {
     position: relative;
-    left: -5px;
+    left: 10px;
   }
   .comment-carousel .comment-block .next {
     position: relative;
-    right: -5px;
+    right: 10px;
   }
 }
 
