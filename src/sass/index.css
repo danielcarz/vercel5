@@ -809,7 +809,6 @@ body .App {
     margin: 0 auto;
     width: 100%;
     height: auto;
-    padding: 0.5rem;
     overflow-x: scroll;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
