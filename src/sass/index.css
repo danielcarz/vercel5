@@ -843,7 +843,8 @@ body .App {
   }
   .comment-carousel .comment-block .comments-wrapper {
     background-color: #E6F5F5;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: none;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
