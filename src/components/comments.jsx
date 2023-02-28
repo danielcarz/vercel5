@@ -66,33 +66,35 @@ const CommentCarousel = () => {
   return (
     <div className="comment-carousel">
 
-        
-            <div className="arrow prev" onClick={nextComment}>
-                &lt;
-            </div>
+          <h2 className='tittle-wrapper'>TESTIMONIOS</h2>
 
-            <section className='comments-wrapper' >
-                <div className='text-wrapper'>
-                    <div className='title-wrapper'>
-                        <h3>{comments[currentComment].name}</h3>
-                        <hr />
-                        
+          <section className='comment-block'>
 
-                    </div>
-                    
-                    <p>{comments[currentComment].review_text}</p>
-                    <h4>{comments[currentComment].date}</h4>
-                </div>
-        
-            </section>
+              <div className="arrow prev" onClick={nextComment}>
+                  &lt;
+              </div>
 
-            <div className="arrow next" onClick={nextComment}>
-                &gt;
-            </div>
- 
-        
-     
-        
+              <section className='comments-wrapper' >
+                  <div className='text-wrapper'>
+                      <div className='title-wrapper'>
+                          <h3>{comments[currentComment].name}</h3>
+                          <hr />
+                          
+
+                      </div>
+                      
+                      <p>{comments[currentComment].review_text}</p>
+                      <h4>{comments[currentComment].date}</h4>
+                  </div>
+          
+              </section>
+
+              <div className="arrow next" onClick={nextComment}>
+                  &gt;
+              </div>
+
+          </section>
+            
         
     </div>
   );
