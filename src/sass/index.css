@@ -803,7 +803,8 @@ body {
             align-items: center;
     margin: 0 auto;
     width: 100%;
-    height: 90vh;
+    height: 70vh;
+    padding: 0.5rem;
     overflow-x: scroll;
     -ms-scroll-snap-type: x mandatory;
         scroll-snap-type: x mandatory;
@@ -823,7 +824,8 @@ body {
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     width: 100%;
-    padding: 30px;
+    height: 549px;
+    padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
