@@ -121,7 +121,7 @@ const CommentCarousel = () => {
                       <h4>{comments[pos_one].date}</h4>
                   </div>
 
-                  <div className='text-wrapper'>
+                  <div className='text-wrapper text_wrapper-two'>
                       <div className='title-wrapper'>
                           <h3>{comments[pos_two].name }</h3>
                           <hr />

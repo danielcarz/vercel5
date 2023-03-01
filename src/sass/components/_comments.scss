@@ -76,10 +76,14 @@
                         
                         flex-shrink: 0;
                         scroll-snap-align: center;
-
+ 
                         h4{
                             color:  $color_backgrounds_buttons;
                         }
+                    } 
+
+                    .text_wrapper-two{
+                        display: none;
                     }
                 }
                 .prev{

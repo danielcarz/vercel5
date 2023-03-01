@@ -871,6 +871,9 @@ body .App {
   .comment-carousel .comment-block .comments-wrapper .text-wrapper h4 {
     color: #308D7C;
   }
+  .comment-carousel .comment-block .comments-wrapper .text_wrapper-two {
+    display: none;
+  }
   .comment-carousel .comment-block .prev {
     position: relative;
     left: 10px;
