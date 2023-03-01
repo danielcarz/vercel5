@@ -1,5 +1,5 @@
 @include phone{
-    .about_me_container{
+    .about_me_container{ 
         @include card;
         background-color: whitesmoke;  
 
