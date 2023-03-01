@@ -92,7 +92,7 @@ const CommentCarousel = () => {
     console.log('nueva_pos_two',nueva_pos_two)
     console.log('nueva_pos_three', nueva_pos_three)
 
-    
+     
 
     if(nueva_pos_one < 0 || nueva_pos_one > comments.length - 1 ){
       nueva_pos_one = 0;
