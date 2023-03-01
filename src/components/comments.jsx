@@ -56,13 +56,16 @@ const CommentCarousel = () => {
 
   const  [pos_one, setPos_one] = useState(0);
   const [pos_two, setPos_two] = useState(1);
+  const [pos_three, setPos_three] = useState(2);
 
   const retroceder = () => {
     let nueva_pos_one = pos_one - 1;
     let nueva_pos_two = pos_two - 1;
+    let nueva_pos_three = pos_three - 1;
 
     console.log('nueva_pos_one', nueva_pos_one)
     console.log('nueva_pos_two',nueva_pos_two)
+    console.log('nueva_pos_three', nueva_pos_three)
 
     if(nueva_pos_one < 0 || nueva_pos_one > comments.length - 1 ){
       nueva_pos_one = comments.length - 2;
@@ -71,9 +74,13 @@ const CommentCarousel = () => {
     if(nueva_pos_two < 0 || nueva_pos_two > comments.length - 1 ){
       nueva_pos_two = comments.length - 1;
     }
+    if(nueva_pos_three < 0 || nueva_pos_three > comments.length - 1 ){
+      nueva_pos_three = comments.length - 1;
+    }
 
     setPos_one(nueva_pos_one);
     setPos_two(nueva_pos_two);
+    setPos_three(nueva_pos_three);
   }
 
   const adelantar = () => {
@@ -110,10 +117,10 @@ const CommentCarousel = () => {
 
               <section className='comments-wrapper' >
                   <div className='text-wrapper'>
+
                       <div className='title-wrapper'>
                           <h3>{comments[pos_one].name}</h3>
                           <hr />
-                          
 
                       </div>
                       
@@ -132,7 +139,18 @@ const CommentCarousel = () => {
                       <p>{comments[pos_two].review_text}</p>
                       <h4>{comments[pos_two].date }</h4>
                   </div>
+ 
+                  <div className='text-wrapper text_wrapper-three'>
+                      <div className='title-wrapper'>
+                          <h3>{comments[pos_three].name }</h3>
+                          <hr />
+                          
 
+                      </div>
+                      
+                      <p>{comments[pos_three].review_text}</p>
+                      <h4>{comments[pos_three].date }</h4>
+                  </div>
                   
           
               </section>

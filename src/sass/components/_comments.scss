@@ -85,6 +85,9 @@
                     .text_wrapper-two{
                         display: none;
                     }
+                    .text_wrapper-three{
+                        display: none;
+                    }
                 }
                 .prev{
                     position: relative;
@@ -189,7 +192,118 @@
                         h4{ 
                             color:  $color_backgrounds_buttons;
                         }
+                    }
+                    .text_wrapper-three{
+                        display: none;
                     } 
+
+                    
+                }
+                .prev{
+                    position: relative;
+                    left: 10px;
+                    
+                    width: 30px;
+                    height: 30px;
+                
+                }
+                .next{
+                    position: relative;
+                    right: 10px;
+                    
+                    
+                    width: 30px;
+                    height: 30px;
+
+                }
+            }
+    }
+}
+
+@include desktop{ 
+    .comment-carousel{
+
+        display: flex;
+        flex-direction: column;
+
+        /* position: absolute; */
+
+        
+        width: 100%;
+        height: 450px;  
+        
+        
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+
+        background-color: #d0b4cf75;
+        border: 1px  solid black;    
+
+        .tittle-wrapper{
+            text-align: center;
+            color:$color_text;
+        }
+
+        .comment-block{
+
+        
+
+               display: flex;
+                align-items: center;
+
+                margin: 0 auto;
+                width: 100%;
+                height: auto; 
+                padding: 0.5rem;
+                
+                overflow-x: scroll;
+                scroll-snap-type: x mandatory;
+
+                
+
+            
+
+                .arrow{
+                    cursor: pointer;
+                    padding: 10px;
+
+                   
+
+                    background-color: $background;
+                    border-radius: 10px;
+                    margin-left: 5px;
+                    margin-right: 5px; 
+                }
+
+                .comments-wrapper{
+                    background-color: $color_backgrounds_cards;;
+                    border-radius: 20px;
+                    border: none;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+
+                    margin: 0 auto;
+                    width: 100%;
+                    height: 350px;
+                    padding:  20px; 
+
+                    display: flex;
+                    align-items: center;
+
+                    .text-wrapper{
+
+                        margin: 0 auto;
+                        width: 40%;   
+
+                        color:$color_text;
+                        
+                        flex-shrink: 0;
+                        scroll-snap-align: center;
+ 
+                        h4{ 
+                            color:  $color_backgrounds_buttons;
+                        }
+                    }
+                    
 
                     
                 }
