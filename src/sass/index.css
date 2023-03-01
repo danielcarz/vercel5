@@ -1019,10 +1019,10 @@ body .App {
   .comment-carousel .comment-block .arrow {
     cursor: pointer;
     padding: 10px;
-    background-color: #d0b4cf75;
+    background-color: #d0b4cff8;
     border-radius: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .comment-carousel .comment-block .comments-wrapper {
     background-color: #E6F5F5;
