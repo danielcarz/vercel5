@@ -952,9 +952,8 @@ body .App {
   }
   .comment-carousel .comment-block .comments-wrapper .text-wrapper {
     margin: 0 auto;
-    width: 30%;
+    width: 40%;
     color: #49166B;
-    border: 1px solid black;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     scroll-snap-align: center;

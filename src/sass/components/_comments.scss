@@ -107,7 +107,7 @@
     }
 }
 
-@include tablet {
+@include tablet{
     .comment-carousel{
 
         display: flex;
@@ -179,19 +179,19 @@
                     .text-wrapper{
 
                         margin: 0 auto;
-                        width: 30%;
+                        width: 40%;   
 
                         color:$color_text;
-
-                        border: 1px solid black;    
                         
                         flex-shrink: 0;
                         scroll-snap-align: center;
-
-                        h4{
+ 
+                        h4{ 
                             color:  $color_backgrounds_buttons;
                         }
-                    }
+                    } 
+
+                    
                 }
                 .prev{
                     position: relative;
