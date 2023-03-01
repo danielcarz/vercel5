@@ -621,7 +621,7 @@ body .App {
   }
   .servicies_container .servicie_wrapper .container_images_servicies h2 {
     position: absolute;
-    left: 66%;
+    left: 50%;
     top: 10px;
     color: #49166B;
     font-size: 30px;
