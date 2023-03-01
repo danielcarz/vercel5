@@ -130,7 +130,7 @@ const CommentCarousel = () => {
                       </div>
                       
                       <p>{comments[pos_two].review_text}</p>
-                      <h4>{console.log('js')}</h4>
+                      <h4>{comments[pos_two].date }</h4>
                   </div>
 
                   
