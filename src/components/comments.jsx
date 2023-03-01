@@ -62,7 +62,7 @@ const CommentCarousel = () => {
     let nueva_pos_one = pos_one - 1;
     let nueva_pos_two = pos_two - 1;
     let nueva_pos_three = pos_three - 1;
-
+ 
     console.log('nueva_pos_one', nueva_pos_one)
     console.log('nueva_pos_two',nueva_pos_two)
     console.log('nueva_pos_three', nueva_pos_three)
@@ -86,7 +86,7 @@ const CommentCarousel = () => {
   const adelantar = () => {
     let nueva_pos_one = pos_one + 1;
     let nueva_pos_two = pos_two + 1;
-    let nueva_pos_three = pos_three - 1;
+    let nueva_pos_three = pos_three + 1;
 
     console.log('nueva_pos_one', nueva_pos_one)
     console.log('nueva_pos_two',nueva_pos_two)
