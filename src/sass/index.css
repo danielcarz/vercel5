@@ -1013,10 +1013,8 @@ body .App {
     margin: 0 auto;
     width: 100%;
     height: auto;
-    padding: 0.5rem;
+    padding: 30px;
     overflow-x: scroll;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
   }
   .comment-carousel .comment-block .arrow {
     cursor: pointer;
@@ -1034,8 +1032,9 @@ body .App {
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     width: 100%;
-    height: 350px;
+    height: 400px;
     padding: 20px;
+    border: 1px solid black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1045,10 +1044,8 @@ body .App {
   }
   .comment-carousel .comment-block .comments-wrapper .text-wrapper {
     margin: 0 auto;
-    width: 40%;
+    width: 20%;
     color: #49166B;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
     scroll-snap-align: center;
   }
   .comment-carousel .comment-block .comments-wrapper .text-wrapper h4 {
