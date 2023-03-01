@@ -190,16 +190,19 @@
 @include desktop{
     .servicies_container{
 
-        height: 80vh;
+        height: auto;
         width: 100%; 
         
-        position: relative;
+        
 
         display: flex;
+        flex-direction: column;
         background-color:  $color_backgrounds_cards;
 
         .servicie_wrapper{
+            position: relative;
 
+            display: flex;
             .container_images_servicies{
  
                 width: 70%;

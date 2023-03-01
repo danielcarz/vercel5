@@ -589,39 +589,48 @@ body .App {
 
 @media (min-width: 1024px) {
   .servicies_container {
-    height: 80vh;
+    height: auto;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #E6F5F5;
+  }
+  .servicies_container .servicie_wrapper {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #E6F5F5;
   }
-  .servicies_container .container_images_servicies {
+  .servicies_container .servicie_wrapper .container_images_servicies {
     width: 70%;
   }
-  .servicies_container .container_images_servicies .emoticons_servicies {
+  .servicies_container .servicie_wrapper .container_images_servicies .emoticons_servicies {
     width: 80px;
     height: 80px;
     margin: 0;
     padding: 10px;
   }
-  .servicies_container .container_images_servicies .emoticons_servicies img {
+  .servicies_container .servicie_wrapper .container_images_servicies .emoticons_servicies img {
     width: 80px;
     height: 80px;
   }
-  .servicies_container .container_images_servicies h2 {
+  .servicies_container .servicie_wrapper .container_images_servicies h2 {
     position: absolute;
     left: 66%;
     top: 10px;
     color: #49166B;
     font-size: 30px;
   }
-  .servicies_container .container_images_servicies .image_servicios_wrapper img {
+  .servicies_container .servicie_wrapper .container_images_servicies .image_servicios_wrapper img {
     width: 680px;
     height: 400px;
   }
-  .servicies_container .container_info_cards {
+  .servicies_container .servicie_wrapper .container_info_cards {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -635,18 +644,18 @@ body .App {
     color: #49166B;
     font-size: 25px;
   }
-  .servicies_container .container_info_cards .text_servicie_wrapper {
+  .servicies_container .servicie_wrapper .container_info_cards .text_servicie_wrapper {
     margin-top: 80px;
   }
-  .servicies_container .container_info_cards .text_servicie_wrapper .prices_servicies {
+  .servicies_container .servicie_wrapper .container_info_cards .text_servicie_wrapper .prices_servicies {
     font-weight: bold;
   }
-  .servicies_container .container_info_cards .button_servicies_wrapper {
+  .servicies_container .servicie_wrapper .container_info_cards .button_servicies_wrapper {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
   }
-  .servicies_container .container_info_cards .button_servicies_wrapper .button_servicies {
+  .servicies_container .servicie_wrapper .container_info_cards .button_servicies_wrapper .button_servicies {
     width: 320px;
     height: 80px;
     border-radius: 10px;
