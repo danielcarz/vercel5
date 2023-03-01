@@ -198,68 +198,74 @@
         display: flex;
         background-color:  $color_backgrounds_cards;
 
-        .container_images_servicies{
+        .servicie_wrapper{
+
+            .container_images_servicies{
  
-            width: 70%;
-            
-
-            .emoticons_servicies{
-                @include emoticon_wrapper(80px, 80px);
-                margin: 0;
-                padding: 10px;
+                width: 70%;
+                
     
-                img{
-                    @include emoticon(80px, 80px);
+                .emoticons_servicies{
+                    @include emoticon_wrapper(80px, 80px);
+                    margin: 0;
+                    padding: 10px;
+        
+                    img{
+                        @include emoticon(80px, 80px);
+                    }
+                }
+                h2{
+                    position: absolute;
+                    left: 66%;
+                    top: 10px;
+                    color: $color_text;
+                    font-size:  $size_subtittle_desktop;      
+                }
+                .image_servicios_wrapper{
+                    img{
+                        @include emoticon(680px, 400px); 
+                    }
                 }
             }
-            h2{
-                position: absolute;
-                left: 66%;
-                top: 10px;
+    
+            .container_info_cards{
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
                 color: $color_text;
-                font-size:  $size_subtittle_desktop;      
-            }
-            .image_servicios_wrapper{
-                img{
-                    @include emoticon(680px, 400px); 
+                font-size: $size_text_desktop;
+    
+                .text_servicie_wrapper{
+    
+                    margin-top: 80px;
+                    .prices_servicies{
+                        font-weight: bold;
+                    }
+                }
+                 
+                .button_servicies_wrapper{
+                
+                    text-align: center;
+                    
+                    
+                    margin-bottom: 20px;
+                    padding: 10px;
+                    .button_servicies{
+                         
+                        @include boton(320px, 80px, 10px);
+                        font-size:   $size_subtittle_desktop;
+                        margin-top: 30px;
+                        
+                         
+                        
+                    }
                 }
             }
+
         }
 
-        .container_info_cards{
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            
-            color: $color_text;
-            font-size: $size_text_desktop;
-
-            .text_servicie_wrapper{
-
-                margin-top: 80px;
-                .prices_servicies{
-                    font-weight: bold;
-                }
-            }
-             
-            .button_servicies_wrapper{
-            
-                text-align: center;
-                
-                
-                margin-bottom: 20px;
-                padding: 10px;
-                .button_servicies{
-                     
-                    @include boton(320px, 80px, 10px);
-                    font-size:   $size_subtittle_desktop;
-                    margin-top: 30px;
-                    
-                     
-                    
-                }
-            }
-        }
+       
     }
 }
