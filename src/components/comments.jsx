@@ -53,15 +53,63 @@ const comments = [
 ]; 
 
 const CommentCarousel = () => {
-  const [currentComment, setCurrentComment] = useState(0);
+
+  const [firstComment, setFirstComment] = useState(0);
+  const [secondComent, setSecondComment] = useState(firstComment + 1);
+
+  console.log(secondComent)
+
+  
 
   const prevComment = () => {
-    setCurrentComment(currentComment === 0 ? comments.length - 1 : currentComment - 1);
+    setFirstComment(firstComment === 0 ? comments.length - 1 : firstComment - 1);
   };
+  //console.log('currentcomment es:', currentComment)
+  //console.log('current comment ahora es', currentComment + 1)
+
+
 
   const nextComment = () => {
-    setCurrentComment(currentComment === comments.length - 1 ? 0 : currentComment + 1);
+    setFirstComment(firstComment === comments.length - 1 ? 0 : firstComment + 1);
+    
+    
   };
+
+  
+
+  const desbordamiento = () => {
+
+   
+   
+    const indice = comments.length - 2
+    const adicion = firstComment + 1
+    
+
+    console.log('el tamaño del objeto es:', indice)
+    console.log('firstcomment es:', firstComment)
+    console.log('second  ahora es:', firstComment + 1)
+
+    setSecondComment(adicion + 1)
+    console.log('second comment', secondComent)
+    
+
+    if(indice === adicion){
+      console.log('fin de los comentarios')
+      
+      console.log('valor first comment dentro del if', firstComment)
+      return setSecondComment
+     
+    }
+  
+    nextComment() 
+    
+   
+  }
+
+  
+
+
+  
 
   return (
     <div className="comment-carousel">
@@ -70,26 +118,40 @@ const CommentCarousel = () => {
 
           <section className='comment-block'>
 
-              <div className="arrow prev" onClick={nextComment}>
+              <div className="arrow prev" onClick={prevComment}>
                   &lt;
               </div>
 
               <section className='comments-wrapper' >
                   <div className='text-wrapper'>
                       <div className='title-wrapper'>
-                          <h3>{comments[currentComment].name}</h3>
+                          <h3>{comments[firstComment].name}</h3>
                           <hr />
                           
 
                       </div>
                       
-                      <p>{comments[currentComment].review_text}</p>
-                      <h4>{comments[currentComment].date}</h4>
+                      <p>{comments[firstComment].review_text}</p>
+                      <h4>{comments[firstComment].date}</h4>
                   </div>
+
+                  <div className='text-wrapper'>
+                      <div className='title-wrapper'>
+                          <h3>{comments[secondComent].name }</h3>
+                          <hr />
+                          
+
+                      </div>
+                      
+                      <p>{comments[secondComent].review_text}</p>
+                      <h4>{console.log('js')}</h4>
+                  </div>
+
+                  
           
               </section>
 
-              <div className="arrow next" onClick={nextComment}>
+              <div className="arrow next" onClick={desbordamiento} >
                   &gt;
               </div>
 
