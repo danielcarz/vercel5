@@ -86,9 +86,13 @@ const CommentCarousel = () => {
   const adelantar = () => {
     let nueva_pos_one = pos_one + 1;
     let nueva_pos_two = pos_two + 1;
+    let nueva_pos_three = pos_three - 1;
 
     console.log('nueva_pos_one', nueva_pos_one)
     console.log('nueva_pos_two',nueva_pos_two)
+    console.log('nueva_pos_three', nueva_pos_three)
+
+    
 
     if(nueva_pos_one < 0 || nueva_pos_one > comments.length - 1 ){
       nueva_pos_one = 0;
@@ -97,9 +101,13 @@ const CommentCarousel = () => {
     if(nueva_pos_two < 0 || nueva_pos_two > comments.length - 1 ){
       nueva_pos_two = 0;
     }
+    if(nueva_pos_three < 0 || nueva_pos_three > comments.length - 1 ){
+      nueva_pos_three = 0;
+    }
 
     setPos_one(nueva_pos_one);
     setPos_two(nueva_pos_two);
+    setPos_three(nueva_pos_three);
   }
 
 
