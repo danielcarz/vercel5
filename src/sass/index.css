@@ -46,6 +46,7 @@ body .App {
         -ms-flex-align: center;
             align-items: center;
     color: white;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -146,6 +147,23 @@ body .App {
   .introduction_container .logo_wrapper img {
     width: 300px;
     height: 300px;
+  }
+  .introduction_container .lema_ashira_wrapper {
+    background-color: #8B4589;
+    height: 190px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  .introduction_container .lema_ashira_wrapper p {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
   }
   .introduction_container .navbar {
     background-color: #E6F5F5;
@@ -332,7 +350,6 @@ body .App {
   }
   .about_me_container .about_me_image_wrapper {
     width: 50%;
-    border: 1px solid;
   }
   .about_me_container .about_me_image_wrapper img {
     width: 80%;
@@ -402,7 +419,6 @@ body .App {
   .servicies_container .image_servicios_wrapper {
     width: 300px;
     height: 200px;
-    border: 1px solid black;
     margin: 0 auto;
   }
   .servicies_container .image_servicios_wrapper img {
@@ -583,7 +599,6 @@ body .App {
   }
   .servicies_container .container_images_servicies {
     width: 70%;
-    border: 1px solid black;
   }
   .servicies_container .container_images_servicies .emoticons_servicies {
     width: 80px;

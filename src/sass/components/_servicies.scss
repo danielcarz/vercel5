@@ -19,7 +19,7 @@
 
         .image_servicios_wrapper{
             @include card_image(300px, 200px);
-            border: 1px solid black;
+              
             margin: 0 auto;
 
             img{
@@ -199,9 +199,9 @@
         background-color:  $color_backgrounds_cards;
 
         .container_images_servicies{
-
+ 
             width: 70%;
-            border: 1px solid black;
+            
 
             .emoticons_servicies{
                 @include emoticon_wrapper(80px, 80px);
