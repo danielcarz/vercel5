@@ -54,62 +54,48 @@ const comments = [
 
 const CommentCarousel = () => {
 
-  const [firstComment, setFirstComment] = useState(0);
-  const [secondComent, setSecondComment] = useState(firstComment + 1);
+  const  [pos_one, setPos_one] = useState(0);
+  const [pos_two, setPos_two] = useState(1);
 
-  console.log(secondComent)
+  const retroceder = () => {
+    let nueva_pos_one = pos_one - 1;
+    let nueva_pos_two = pos_two - 1;
 
-  
+    console.log('nueva_pos_one', nueva_pos_one)
+    console.log('nueva_pos_two',nueva_pos_two)
 
-  const prevComment = () => {
-    setFirstComment(firstComment === 0 ? comments.length - 1 : firstComment - 1);
-  };
-  //console.log('currentcomment es:', currentComment)
-  //console.log('current comment ahora es', currentComment + 1)
-
-
-
-  const nextComment = () => {
-    setFirstComment(firstComment === comments.length - 1 ? 0 : firstComment + 1);
-    
-    
-  };
-
-  
-
-  const desbordamiento = () => {
-
-   
-   
-    const indice = comments.length - 2
-    const adicion = firstComment + 1
-    
-
-    console.log('el tamaño del objeto es:', indice)
-    console.log('firstcomment es:', firstComment)
-    console.log('second  ahora es:', firstComment + 1)
-
-    setSecondComment(adicion + 1)
-    console.log('second comment', secondComent)
-    
-
-    if(indice === adicion){
-      console.log('fin de los comentarios')
-      
-      console.log('valor first comment dentro del if', firstComment)
-      return setSecondComment
-     
+    if(nueva_pos_one < 0 || nueva_pos_one > comments.length - 1 ){
+      nueva_pos_one = comments.length - 2;
     }
-  
-    nextComment() 
-    
-   
+
+    if(nueva_pos_two < 0 || nueva_pos_two > comments.length - 1 ){
+      nueva_pos_two = comments.length - 1;
+    }
+
+    setPos_one(nueva_pos_one);
+    setPos_two(nueva_pos_two);
   }
 
-  
+  const adelantar = () => {
+    let nueva_pos_one = pos_one + 1;
+    let nueva_pos_two = pos_two + 1;
+
+    console.log('nueva_pos_one', nueva_pos_one)
+    console.log('nueva_pos_two',nueva_pos_two)
+
+    if(nueva_pos_one < 0 || nueva_pos_one > comments.length - 1 ){
+      nueva_pos_one = 0;
+    }
+
+    if(nueva_pos_two < 0 || nueva_pos_two > comments.length - 1 ){
+      nueva_pos_two = 0;
+    }
+
+    setPos_one(nueva_pos_one);
+    setPos_two(nueva_pos_two);
+  }
 
 
-  
 
   return (
     <div className="comment-carousel">
@@ -118,32 +104,32 @@ const CommentCarousel = () => {
 
           <section className='comment-block'>
 
-              <div className="arrow prev" onClick={prevComment}>
+              <div className="arrow prev" onClick={retroceder}>
                   &lt;
               </div>
 
               <section className='comments-wrapper' >
                   <div className='text-wrapper'>
                       <div className='title-wrapper'>
-                          <h3>{comments[firstComment].name}</h3>
+                          <h3>{comments[pos_one].name}</h3>
                           <hr />
                           
 
                       </div>
                       
-                      <p>{comments[firstComment].review_text}</p>
-                      <h4>{comments[firstComment].date}</h4>
+                      <p>{comments[pos_one].review_text}</p>
+                      <h4>{comments[pos_one].date}</h4>
                   </div>
 
                   <div className='text-wrapper'>
                       <div className='title-wrapper'>
-                          <h3>{comments[secondComent].name }</h3>
+                          <h3>{comments[pos_two].name }</h3>
                           <hr />
                           
 
                       </div>
                       
-                      <p>{comments[secondComent].review_text}</p>
+                      <p>{comments[pos_two].review_text}</p>
                       <h4>{console.log('js')}</h4>
                   </div>
 
@@ -151,7 +137,7 @@ const CommentCarousel = () => {
           
               </section>
 
-              <div className="arrow next" onClick={desbordamiento} >
+              <div className="arrow next" onClick={adelantar} >
                   &gt;
               </div>
 
